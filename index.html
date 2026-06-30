@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nishare API AI 工具接入 - Nishare</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="skill-page">
+      <nav class="topnav skill-nav" aria-label="主导航">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">N</span>
+          <span>Nishare</span>
+        </a>
+        <div class="nav-actions">
+          <a class="login-link" href="/skills/nishare-api/AI_TOOLS.md">复制通用提示词</a>
+          <a class="login-link" href="/skills/nishare-api/nishare-ai-tools.tar.gz">下载全部接入包</a>
+          <a class="login-link" href="/skills/nishare-api/nishare-api.tar.gz">下载 Codex Skill</a>
+          <a class="login-link" href="/login">登录控制台</a>
+        </div>
+      </nav>
+
+      <section class="skill-hero">
+        <p class="eyebrow">AI Toolkit</p>
+        <h1>Nishare API</h1>
+        <p class="lead">让任何 AI 工具都能把生成的 HTML、图片、文档发布到 Nishare。支持复制通用提示词，也支持 Codex 一键安装。</p>
+      </section>
+
+      <section class="skill-install-grid">
+        <article class="prompt-box">
+          <span>通用接入方式</span>
+          <code>打开 AI 工具的系统提示词 / 自定义指令 / 项目规则，把 AI_TOOLS.md 里的内容复制进去。</code>
+        </article>
+        <article class="prompt-box">
+          <span>Codex 一条命令安装</span>
+          <code>mkdir -p ~/.codex/skills &amp;&amp; curl -L https://nishare.com/skills/nishare-api/nishare-api.tar.gz | tar -xz -C ~/.codex/skills</code>
+        </article>
+        <article class="prompt-box">
+          <span>接入后这样说</span>
+          <code>把这个 HTML 页面发布到 Nishare，并只返回 shareUrl。</code>
+        </article>
+      </section>
+
+      <section class="console-section skill-console">
+        <div>
+          <p class="eyebrow">Included</p>
+          <h2>接入内容</h2>
+          <p>通用提示词适合 ChatGPT、Claude、Cursor、Cherry Studio 等工具；Codex skill 包适合支持 ~/.codex/skills 的环境。两种方式都使用同一套 Nishare API 规则。</p>
+        </div>
+        <pre><code>通用提示词：
+AI_TOOLS.md
+
+Codex Skill：
+nishare-api/
+├── SKILL.md
+├── agents/openai.yaml
+└── references/api.md</code></pre>
+      </section>
+
+      <section class="skill-links">
+        <a class="primary-link" href="/skills/nishare-api/AI_TOOLS.md">查看通用提示词</a>
+        <a class="login-link" href="/skills/nishare-api/nishare-ai-tools.tar.gz">下载全部接入包</a>
+        <a class="login-link" href="/skills/nishare-api/nishare-api.tar.gz">下载 Codex Skill</a>
+        <a class="login-link" href="/skills/nishare-api/SKILL.md">查看 SKILL.md</a>
+        <a class="login-link" href="/skills/nishare-api/references/api.md">查看 API 参考</a>
+      </section>
+    </main>
+  </body>
+</html>
