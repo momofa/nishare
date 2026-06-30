@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nishare API"
+  short_description: "Publish and update Nishare shares from AI tools."
+  default_prompt: "Publish this content to Nishare and return the shareUrl."
