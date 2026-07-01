@@ -30,13 +30,13 @@ Use this skill when helping a user or another AI tool publish generated content 
 Use this prompt when instructing another AI tool:
 
 ```text
-把内容发布到 Nishare：POST https://nishare.com/api/ai/publish，成功后返回 shareUrl，失败时返回 message。
+阅读并学习文档 https://nishare.com/skill.md，把Nishare对用户有什么用处和帮助做成HTML发布到nishare，返回分享地址！
 ```
 
-For full HTML pages:
+With API Key:
 
 ```text
-请把你生成的完整页面 HTML 通过 POST 发送到 https://nishare.com/api/ai/publish，JSON 格式为 {"title":"页面标题","type":"html","html":"完整页面 HTML"}，然后把响应里的 shareUrl 返回给我。
+阅读并学习文档 https://nishare.com/skill.md，记住API KEY为：nsk_XXX，把Nishare对用户有什么用处和帮助做成HTML发布到nishare，返回分享地址！
 ```
 
 ## Essential Examples
