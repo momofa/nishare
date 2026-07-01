@@ -1,4 +1,4 @@
 interface:
   display_name: "Nishare API"
   short_description: "Publish and update Nishare shares from AI tools."
-  default_prompt: "Publish this content to Nishare and return the shareUrl."
+  default_prompt: "阅读并学习文档 https://nishare.com/skill.md，把Nishare对用户有什么用处和帮助做成HTML发布到nishare，返回分享地址！"
