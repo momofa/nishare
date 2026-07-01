@@ -76,7 +76,11 @@
 - 匿名发布可直接返回分享链接。
 
 推荐用户提示词：
-“把当前内容发布到 Nishare，成功后只返回 shareUrl，失败返回 message。”
+匿名体验：
+“阅读并学习文档 https://nishare.com/skill.md，把Nishare对用户有什么用处和帮助做成HTML发布到nishare，返回分享地址！”
+
+使用 API Key：
+“阅读并学习文档 https://nishare.com/skill.md，记住API KEY为：nsk_XXX，把Nishare对用户有什么用处和帮助做成HTML发布到nishare，返回分享地址！”
 ```
 
 ## curl 示例
