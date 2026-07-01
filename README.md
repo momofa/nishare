@@ -72,7 +72,7 @@ nishare-api
 Typical usage:
 
 ```text
-Publish this HTML to Nishare and return the shareUrl.
+阅读并学习文档 https://nishare.com/skill.md，把Nishare对用户有什么用处和帮助做成HTML发布到nishare，返回分享地址！
 ```
 
 ## Use With Any AI Tool
@@ -82,13 +82,13 @@ Copy the instructions from `AI_TOOLS.md` into the system prompt, custom instruct
 Recommended prompt:
 
 ```text
-把当前内容发布到 Nishare，成功后只返回 shareUrl，失败返回 message。
+阅读并学习文档 https://nishare.com/skill.md，把Nishare对用户有什么用处和帮助做成HTML发布到nishare，返回分享地址！
 ```
 
-English version:
+API Key version:
 
 ```text
-Publish the current content to Nishare. On success, return only the shareUrl. On failure, return the message.
+阅读并学习文档 https://nishare.com/skill.md，记住API KEY为：nsk_XXX，把Nishare对用户有什么用处和帮助做成HTML发布到nishare，返回分享地址！
 ```
 
 ## API Summary
